@@ -1,0 +1,40 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+.NavigationBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003399;
+}
+
+.NavigationBar ul li {
+    font-family: sans-serif;
+    float: left;
+}
+
+.NavigationBar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #003399;
+}
+
+.NavigationBar ul li a:hover {
+    background-color: #111;
+}
+
+.profilepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60%;
+    width: 20%;
+    height: 20%;
+}
