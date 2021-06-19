@@ -2,6 +2,8 @@ body{
     margin-top: 0;
     margin-left: 0;
     width: 100%;
+    height: auto;
+    background-color: #ffffff;
 }
 
 .NavigationBar ul{
@@ -9,7 +11,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #003399;
+    background-color: #004d00;
 }
 
 .NavigationBar ul li {
@@ -23,18 +25,24 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #003399;
+    background-color: #004d00;
 }
 
 .NavigationBar ul li a:hover {
-    background-color: #111;
+    background-color: #ffffff;
+    border-style: solid;
+    border-bottom: black;
+    border-width: 2px;
+    color: #004d00;
 }
 
+
+
 .profilepic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
     border-radius: 60%;
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 15%;
 }
