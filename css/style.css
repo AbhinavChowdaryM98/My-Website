@@ -3,7 +3,7 @@ body{
     margin-left: 0;
     width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #ffffe6;
 }
 
 .NavigationBar ul{
@@ -30,9 +30,6 @@ body{
 
 .NavigationBar ul li a:hover {
     background-color: #ffffff;
-    border-style: solid;
-    border-bottom: black;
-    border-width: 2px;
     color: #004d00;
 }
 
