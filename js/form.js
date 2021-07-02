@@ -6,7 +6,6 @@ function myFunction() {
     document.getElementById("skill").value = "";
     var level = document.getElementById("level").value;
     document.getElementById("level").value = "";
-    //  alert(temp)
     var tab = document.getElementById("tab");
     arr.push({ name, skill, level });
     var htm = "";
