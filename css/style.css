@@ -4,6 +4,15 @@ body{
     width: 100%;
     height: auto;
     background-color: #ffffe6;
+    animation: color-change 4s infinite;
+}
+
+@keyframes color-change {
+    0% { background-color: white; }
+    25% { background-color: #ffffe6; }
+    50% { background-color: wheat; }
+    75% {background-color: #ffffe6;}
+    100% {background-color: white;}
 }
 
 .NavigationBar ul{
@@ -28,6 +37,55 @@ body{
     background-color: #004d00;
 }
 
+.greet {
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: large;
+    font-style: italic;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #313131;
+    font-size: 45px;
+    position: relative;
+    -webkit-animation: colorchange 20s infinite alternate;
+  }
+  
+  @-webkit-keyframes colorchange {
+    0% {
+      color: blue;
+    }
+    10% {
+      color: #8e44ad;
+    }
+    20% {
+      color: #1abc9c;
+    }
+    30% {
+      color: #d35400;
+    }
+    40% {
+      color: blue;
+    }
+    50% {
+      color: #34495e;
+    }
+    60% {
+      color: blue;
+    }
+    70% {
+      color: #2980b9;
+    }
+    80% {
+      color: #f1c40f;
+    }
+    90% {
+      color: #2980b9;
+    }
+    100% {
+      color: pink;
+    }
+  }  
 
 
 .profilepic {
@@ -37,4 +95,8 @@ body{
     border-radius: 60%;
     width: 15%;
     height: 15%;
+}
+
+h3{
+    font-weight: bold;
 }

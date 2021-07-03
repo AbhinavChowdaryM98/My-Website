@@ -29,4 +29,12 @@ input{
 }
 body{
     background-color: #ffffe6;
+    animation: color-change 4s infinite;
+}
+@keyframes color-change {
+    0% { background-color: white; }
+    25% { background-color: #ffffe6; }
+    50% { background-color: wheat; }
+    75% {background-color: #ffffe6;}
+    100% {background-color: white;}
 }
